@@ -1,0 +1,65 @@
+* {
+  font-family: "Indie Flower", cursive;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #f8f3d4;
+}
+
+h1 {
+  margin: 30px;
+
+  /* text-shadow: 2px 0 #999; */
+  font-size: 80px;
+  color: #222;
+}
+
+button {
+  color: #222;
+  background-color: #ffde7d;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #222;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+p {
+  font-size: 40px;
+
+  font-weight: bold;
+}
+
+img {
+  width: 80%;
+}
+
+#playerOne {
+  color: #00b8a9;
+}
+
+#playerTwo {
+  color: #f6416c;
+}
+
+.opacity {
+  opacity: 50%;
+}
